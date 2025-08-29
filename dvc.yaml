@@ -1,8 +1,8 @@
 stages:
   data_load:
-    cmd: python dataloader.py
+    cmd: python data_loader.py
     deps:
-      - dataloader.py
+      - data_loader.py
     outs:
       - train.csv
       - test.csv
